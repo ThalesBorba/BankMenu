@@ -2,24 +2,22 @@
     background-color: rgb(235, 125, 15);
     color: white;
     height: 8rem;
-  }
-
-.body {
-    background-color: rgb(237, 237, 237);
-    height: 32rem;
-    float: bottom;
+    padding-top: 1rem;
+    padding-bottom: auto;
+    padding-left: 2rem;
 }
 
-.saldo-valor {
+button {
+
+    width: 100%;
+}
+
+.balance-value {
     display: flex;
 }
 
 .hide-balance {
     margin-left: 8rem;
-}
-
-.content {
-    z-index: -1;
-    position:relative
+    width: 1rem;
 }
 
