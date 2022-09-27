@@ -7,9 +7,16 @@
     padding-left: 2rem;
 }
 
-button {
+.container {
+    z-index: -1;
+}
 
+.square {
     width: 100%;
+    min-width: 125px;
+    min-height: 125px;
+    font-size: 12px;
+    
 }
 
 .balance-value {
