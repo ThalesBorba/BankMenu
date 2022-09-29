@@ -6,14 +6,3 @@ function hideBalance() {
         balance.style.display = "none";
       }
 }
-
-
-function resizeAdjustments() {
-  var button = document.getElementsByClassName("square");
-
-  for (var i = 0; i < button.length; i++) {
-    button[i].style.height = button[i].style.width;
-  }
-}
-
-window.onresize = resizeAdjustments;
