@@ -112,6 +112,14 @@
 
 .button-img {
     color: rgb(235, 125, 15);
-    margin-top: 1rem;
+    padding-top: 0.75rem;
     background-color: white;
+}
+
+.circle {
+    margin-top: 0.4rem;
+    background-color: white;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
 }
